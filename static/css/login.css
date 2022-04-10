@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("/static/img/background.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+#alert {
+  height: 30px;
+  padding:5px 20px;
+  background-color: #FFF3CD;
+  color:  #88681E;
+  margin-bottom: 10px;
+  opacity: 85%;
+}
+#closebtn {
+  margin-left: 15px;
+  color: #86661C;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#closebtn:hover {
+  color: black;
+}
+.error {
+  color:  #88681E;
+  line-height: 0px;
+}
+.wrapper {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: none;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.info {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 30px;
+  transition: 0.25s;
+  font-size: 17px;
+}
+#signup p{
+  color: white;
+}
+#signup img {
+  width: 30px;
+  float: left;
+  text-align: center;
+}
+.info:focus {
+  width: 280px;
+  border-color: #2ECC71;
+}
+input[type=checkbox]#check + label{
+  cursor: pointer;
+  color: white;
+}
+input[type=checkbox]#check:checked + label {
+  color: #2ECC71;
+}
+#login {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ECC71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 30px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+#login:hover {
+  background: #2ECC71;
+}
+.tip, .warning, .header {
+  color: white;
+  font-size: 15px;
+}
+#signup {
+  border: 0;
+  outline: none;
+  background: none;
+  text-align: left;
+  display: block;
+  width: 200px;
+  padding: 20px auto;
+  margin: 20px auto;
+}
+#signup a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+#signup a:hover {
+  color: #2ECC71;
+  text-decoration: none;
+}

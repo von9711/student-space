@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #191919;
+}
+.wrapper {
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: none;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+.head {
+  width: 170px;
+  text-align: left;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #2ECC71;
+}
+.btn {
+  width: 200px;
+  border: 0;
+  border-radius: 30px;
+  padding: 14px 40px;
+  text-align: center;
+  outline: none;
+  background: #2ECC71;
+  transition: all .2s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.1);
+  background: #2ECC71;
+}
